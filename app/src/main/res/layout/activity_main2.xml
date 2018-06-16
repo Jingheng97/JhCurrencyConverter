@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Main2Activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.8"
+    android:background="@drawable/p4"
+    android:orientation="vertical"
+    tools:context=".Main2Activity"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over">
+
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:hapticFeedbackEnabled="false"
+        android:text="Home" />
+
+    <TextView
+        android:id="@+id/RandomNumber"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:background="#ABCD"
+        android:hint="Hit the Generate Button!"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/Generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Generate Number" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:background="#F7DC6F"
+        android:gravity="center"
+        android:text="Random Number decides your next trip!"
+        android:textColor="#000"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:textColor="#1C2833"
+        android:textStyle="bold"
+        android:alpha="0.9"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textSize="59px"
+        android:text="1) France" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:textColor="#1C2833"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textSize="59px"
+        android:text="2) United States" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:textColor="#1C2833"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textSize="59px"
+        android:text="3) Japan" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:textColor="#1C2833"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textSize="59px"
+        android:text="4) Malaysia" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="#1C2833"
+        android:gravity="center"
+        android:textSize="59px"
+        android:text="5) Italy" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:textColor="#1C2833"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textSize="59px"
+        android:text="6) Singapore" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:textColor="#1C2833"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textSize="59px"
+        android:text="7) Thailand" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="8) Korea"
+        android:textColor="#1C2833"
+        android:fontFamily="monospace"
+        android:textSize="59px"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:text="9) Taiwan"
+        android:textColor="#1C2833"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textSize="59px"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
